@@ -11,6 +11,9 @@ $dbuser = 'root';
 $dbpass = null;
 $dbschema="test";
 try {
+    
+    
+    
     $conn = mysqli_connect($dbhost, $dbuser, $dbpass,$dbschema);
 if(! $conn )
 {
